@@ -7,7 +7,7 @@ body:
     id: extension
     attributes:
       label: AI Assistant version
-      placeholder: 0.7.0
+      placeholder: 0.7.1
     validations:
       required: true
   - type: input

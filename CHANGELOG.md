@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.1 - 2026-11-06
+
+### Improved
+
+- Give context menus a darker background and a subtle rounded outline to separate them from the chat.
+- Keep menu text and hover states readable in both dark and light Visual Studio themes.
+
 ## 0.7.0 - 2026-11-06
 
 ### Added
