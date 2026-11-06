@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a problem with AI Assistant for Visual Studio.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: extension
+    attributes:
+      label: AI Assistant version
+      placeholder: 0.7.0
+    validations:
+      required: true
+  - type: input
+    id: visual-studio
+    attributes:
+      label: Visual Studio version
+      placeholder: Visual Studio 2022 or 2026, including the version number
+    validations:
+      required: true
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Assistant
+      options: [Codex, Claude, Both, Not applicable]
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened?
+      description: Include steps to reproduce, expected behavior and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: Screenshots and error messages help. Remove credentials and private project contents before posting.

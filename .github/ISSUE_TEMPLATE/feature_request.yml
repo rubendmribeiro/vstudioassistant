@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest an improvement to AI Assistant.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to improve?
+      description: Describe your workflow and the result you want.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behavior
+      description: Explain how you would like the feature to work.
+    validations:
+      required: true
