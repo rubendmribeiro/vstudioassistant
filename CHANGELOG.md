@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.8 - 2026-11-07
+
+### Improved
+
+- Show image attachments as rounded square thumbnails above the message. Thumbnails wrap on narrow panels.
+- Open the original image in the Windows default viewer from both attached thumbnails and local Markdown image previews.
+- Keep attached images clickable during an active response and show a hand cursor over them.
+
 ## 0.7.7 - 2026-11-07
 
 ### Improved
