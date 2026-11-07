@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.7.3 - 2026-11-07
+
+### Fixed
+
+- Let chat content scroll through the composer fade instead of clipping above it.
+- Keep the final line fully readable above the fade when jumping to the present.
+
+### Improved
+
+- Soften the rounded hover backgrounds on Undo, View changes and the file-list toggle.
+- Move the partial-capture explanation from the change card to the Undo tooltip, including when Undo is disabled. File capture limits and Undo safeguards remain in place.
+
 ## 0.7.2 - 2026-11-07
 
 ### Fixed
