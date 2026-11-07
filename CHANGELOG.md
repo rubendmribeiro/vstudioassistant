@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.11 - 2026-11-07
+
+### Fixed
+
+- Drag the chat scrollbar upward from the bottom without snapping back to the latest message, even while a response is streaming.
+- Release the scrollbar at the bottom to resume following the response.
+
 ## 0.7.10 - 2026-11-07
 
 ### Fixed
