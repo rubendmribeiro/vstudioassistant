@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.7.2 - 2026-11-07
+
+### Fixed
+
+- Render attached IDE context as formatted code blocks, preserving indentation without displaying Markdown fences.
+- Resolve bare file names using the IDE context attached to each response, including older messages and additional project folders, instead of inventing missing root-level paths.
+- Open the correct file or folder in File Explorer and keep file-menu actions separate from opening the editor.
+- Show friendly file-action errors beside the affected file instead of displaying raw exceptions above the composer.
+- Give user messages more space above their bubbles and increase the gap between the last message and the composer.
+- Match the composer shadow and chat fade to the active theme background.
+
+### Improved
+
+- Replace the old AI monogram with a new conversation-and-spark icon.
+- Preserve the icon's original colors in Visual Studio menus and include 16/32 px image sources for display scaling.
+
 ## 0.7.1 - 2026-11-06
 
 ### Improved
