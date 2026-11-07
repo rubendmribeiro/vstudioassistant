@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.10 - 2026-11-07
+
+### Fixed
+
+- Undo reverses confirmed Codex and Claude edits while preserving non-conflicting edits saved in the same file during the response.
+- Undo stops before writing any files if an edit conflicts with the current content.
+- Changes without a confirmed patch, including older chat history, remain available in View changes.
+
 ## 0.7.9 - 2026-11-07
 
 ### Fixed
