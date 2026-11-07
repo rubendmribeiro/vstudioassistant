@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.7.5 - 2026-11-07
+
+### Added
+
+- Type `/` at the start of a message to find installed skills and supported commands. Use the arrow keys to navigate and Enter or Tab to select an entry before sending.
+- Discover Codex skills and Claude commands automatically from the active workspace. The Codex menu also supports native `/review` and `/compact`.
+- When Caveman is installed for the active provider, a rock button appears beside Fast Mode. Choose Normal, Ultra, or Mega on a three-step scale. The extension remembers the setting per conversation and reapplies it to ordinary messages.
+
+### Improved
+
+- Align the fill, markers, and labels on the reasoning effort and Caveman scales.
+- Keep the model picker free of scrollbars. It grows or shrinks smoothly when Caveman is toggled, with all model rows still visible.
+
 ## 0.7.4 - 2026-11-07
 
 ### Improved
