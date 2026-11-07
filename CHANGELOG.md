@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.7.9 - 2026-11-07
+
+### Fixed
+
+- Keep the transcript at the latest message after using Jump to present during a response, even when a control higher up still has keyboard focus.
+- Keep project access preferences separate. Queued messages use the access selected when they were sent without changing the current composer preference.
+- Keep the current chat open when a cancelled Codex history operation returns late. Keep locally discovered projects available when the CLI project API is unavailable.
+- Include unstaged deletions of tracked Git files in change review. Keep pre-existing ignored files out of the added-file list, and refuse Undo on hard-linked files.
+- Fix local file links with escaped characters and line anchors. Resolve network paths without probing them during rendering.
+- Enforce attachment limits using current file sizes, clean up temporary clipboard images, and load image thumbnails without blocking the interface.
+- Improve Codex and Claude cancellation and streaming. A failed Codex title update no longer stops the message queue after a successful response.
+
 ## 0.7.8 - 2026-11-07
 
 ### Improved
