@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.12 - 2026-11-07
+
+### Improved
+
+- Keep the chat responsive while saving a sent message or removing a queued message. Send shows a loading indicator, and the queue's remove button shows a red indicator until the save completes.
+- Animate the first appearance of the queue and each new queued message.
+- Keep earlier messages in place when starting or finishing a response, avoiding a full rebuild of the conversation.
+
 ## 0.7.11 - 2026-11-07
 
 ### Fixed
