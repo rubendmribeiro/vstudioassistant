@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.6 - 2026-11-07
+
+### Improved
+
+- Match the permissions menu background and outline to the model picker.
+- Blend unselected options into the menu background. Highlight the current selection and the option under the pointer, as in the Codex and Claude picker.
+
 ## 0.7.5 - 2026-11-07
 
 ### Added
