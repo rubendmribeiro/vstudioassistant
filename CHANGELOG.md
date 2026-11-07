@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.13 - 2026-11-07
+
+### Added
+
+- Answer Codex questions with free text or by selecting an option. Asynchronous questions stay available after the response finishes and when you reopen the chat.
+- Answer Claude questions directly in the chat, including groups of questions, single or multiple selections, and custom text. Skip a question when you want Claude to continue without an answer.
+
 ## 0.7.12 - 2026-11-07
 
 ### Improved
