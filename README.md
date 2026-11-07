@@ -4,7 +4,7 @@
 
 [Install from Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RubenRibeiro.AIASSISTANT) · [Download the latest VSIX](https://github.com/rubendmribeiro/vstudioassistant/releases/latest) · [Changelog](CHANGELOG.md)
 
-![AI Assistant](assets/native-chat.png)
+![AI Assistant in Visual Studio with a sample conversation and the composer](assets/chat-preview.png)
 
 ## Get started
 
@@ -25,6 +25,8 @@ Type `/` at the start of a message, then type to filter. Use the arrow keys to n
 
 The extension reads skills from the Codex App Server for the current workspace and commands from the Claude CLI. Codex also supports native `/review` and can run `/compact` in an existing conversation.
 
+![Slash menu filtered to Caveman skills](assets/slash-menu-preview.png)
+
 ## Caveman mode
 
 [Caveman](https://github.com/JuliusBrussee/caveman#commands) is an optional skill for shorter replies. Install it for Codex or Claude Code. When the active CLI reports the skill, a **rock icon** appears beside Fast Mode in the model picker. Turn it on to reveal a three-step scale.
@@ -37,7 +39,7 @@ The extension reads skills from the Codex App Server for the current workspace a
 
 The selection is saved per conversation. The extension invokes the installed skill on each ordinary message, so it can apply from the first turn or after you enable it mid-chat. Codex receives a structured reference to the skill, and Claude receives the slash command reported by its CLI. The local chat history shows your message as written. Click the rock again to turn Caveman off.
 
-![Caveman enabled in the model picker with Ultra selected](assets/caveman-model-picker.png)
+![Caveman enabled in the Claude model picker with Ultra selected](assets/caveman-preview.png)
 
 ## Feedback and fixes
 
