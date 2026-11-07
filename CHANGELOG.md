@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.7.4 - 2026-11-07
+
+### Improved
+
+- Redesigned Assistants settings and moved the provider, model and effort controls inside the composer.
+- Discover model and effort options from Codex and Claude. Show Fast Mode as a lightning toggle when supported by the selected model.
+- Drag anywhere on the effort bar and see a red shimmer when Ultra is selected.
+- Use a smoother expansion for the changed-files list and label the action Collapse files.
+
+### Fixed
+
+- Keep Jump to present at the bottom while a response is streaming, even when jumping from far back in the chat.
+- Show only the loading indicator while detecting assistants.
+- Match the IDE Context hover to Upload, use a slightly stronger color when checked, and clear the hover highlight when the pointer leaves.
+
 ## 0.7.3 - 2026-11-07
 
 ### Fixed
