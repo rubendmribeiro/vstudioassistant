@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.7 - 2026-11-07
+
+### Improved
+
+- Show one line per queued message, with an ellipsis when the preview is too long. Hover over it to see the original text.
+- Give Steer a curved arrow and replace the remove button with a red trash icon. Both controls are larger.
+- Keep Steer transparent at rest and show a subtle background on hover.
+
 ## 0.7.6 - 2026-11-07
 
 ### Improved
